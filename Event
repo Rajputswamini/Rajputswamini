@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+function A()
+{
+  document.bgColor="pink";
+}
+function B()
+{
+  document.bgColor="red";
+}
+
+
+</script>
+</head>
+<body>
+<from>
+<input type="button" value=" click pink " onClick="A()">
+<input type="textbox" onkeypress="B()">
+</from>
+</body>
+
+</html>
