@@ -1,0 +1,34 @@
+<html>
+<head>
+<style type="text/css">
+p1
+{
+  font-family:arial;
+  font-size:10px;
+   background:aqua;
+   color:black;
+
+}
+p2
+{
+  color:red;
+  background:black;
+  font-varient:small-caps;
+  font-style:italic;
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+<p1>Opening Stock, also called Beginning Inventory, refers to the quantity held by a company at the beginning of the accounting period. Similarly, it is the ending stock of the preceding year and is carried forward to the next year.</p1><br>
+<p2>Opening Stock, also called Beginning Inventory, refers to the quantity held by a company at the beginning of the accounting period. Similarly, it is the ending stock of the preceding year and is carried forward to the next year.</p2>
+<p3></p3>
+<p4></p4>
+
+
+</body>
+</html>
