@@ -1,0 +1,30 @@
+<html>
+<head><style type="text/css">
+form
+{
+height:200px;
+width:350px;
+background:#82E0AA;
+}
+</style>
+<title>JavaScript Program to find Square and Cube of a number</title>
+<script type="text/javascript">
+function cube()
+{
+var a,Cube;
+a = eval(document.getElementById ("first").value);
+//Formulae for Cube
+Cube = a*a*a;
+document.getElementById("result").value=Cube;
+}
+</script>
+</head>
+<body>
+<form><pre><h2>Find Cube Root of given number</h2>
+             <input type="text" name="a" id="first" placeholder="Enter a number"><br><br>
+                    <input type="button" id="btn" onclick="cube()" value="check"><br><br>
+      Result <input type="text" id="result">
+<div id="num1"></div></form>
+</form>
+</body>
+</html>
