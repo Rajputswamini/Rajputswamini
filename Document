@@ -1,0 +1,14 @@
+<html>
+<head><title>
+Document Object</title>
+</head>
+<body>
+<b id="demo">
+<script type="text/javascript">
+//alert(document.url)
+//alert(document.title)
+document.bgColor="red"
+document.getElementById("demo").innerHTML = "This is innerHTML and getElementById method<br><br>"
+document.write("This is document.write method")
+</script>
+</b></body></html>
