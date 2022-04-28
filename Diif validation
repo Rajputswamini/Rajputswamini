@@ -1,0 +1,53 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function check_null()
+{
+x=document.getElementById("name").value
+
+if(x=="")
+{
+alert("Not null please try again.");
+return false
+}
+else
+{
+return true
+}
+}
+function check_email()
+{
+var email_add=document.getElementById("email").value
+atpos=email_add.indexOf("@")
+dotpos=email_add.lastIndexOf(".")
+if (atpos<1 || dotpos<atpos+2 )
+{
+alert("Not Valid Email, please try again.");
+return false
+}
+else
+{
+return true
+}
+}
+
+
+
+</script>
+</head>
+<body>
+
+Enter Name<input type="text" id="name" ><br>
+
+Enter Email<input type="text" id="email" onblur="return check_email()"><br>
+
+<input type="button" value="check Email" onblur="return check_null()"><br>
+
+
+
+
+
+
+</body>
+</html>
