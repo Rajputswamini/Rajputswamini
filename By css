@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+.B
+{
+  text-align:center;
+  color:blue;
+  font-weight:30%;
+  border: 10px dashed red;
+  border-color:black;
+}
+</style>
+</head>
+<body ><h1 class="B">
+Swami</h1>
+</body>
+</html>
